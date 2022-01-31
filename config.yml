@@ -1,0 +1,21 @@
+bot_token: 5125185009:AAH08js8nfY31sEOY7UzJEBUeHlSMc1t9Cw
+# socks5: 127.0.0.1:1080
+bindmax: 1
+goroutine: 20
+admin: 771137853
+errlimit: 5
+notice: |-
+  Beta测试中，请不要大批量使用
+  本来只想着是我自己使用的，不过少数人一起用也NP
+  部署在RailwayAPP上，其实你自己也可以部署一个的
+cron: "1 */1 * * *"
+db: sqlite
+table: users
+# mysql:
+#  host: 127.0.0.1
+#  port: 3306
+#  user: root
+#  password: pwd
+#  database: e5sub
+sqlite:
+  db: data.db
